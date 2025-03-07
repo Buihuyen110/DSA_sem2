@@ -1,0 +1,8 @@
+insert 100
+insert 200
+insert 50
+insert 150
+delete 100
+exists 100
+prev 200
+next 50
