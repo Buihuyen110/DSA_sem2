@@ -1,71 +1,38 @@
-from Lab2.utils import read, write
+import sys
+from Lab3.utils import read, write
 
 PATH_INPUT = '../txtf/input.txt'
 PATH_OUTPUT = '../txtf/output.txt'
 
+sys.setrecursionlimit(200000)# Увеличиваем лимит рекурсии для больших графов
 
-class TreeNode:
-    def __init__(self, value):
-        self.value = value
-        self.size = 1  # Размер корневого поддерева в этом узле
-        self.left = None
-        self.right = None
+def topological_sort(n, edges):
+    from collections import defaultdict
 
+    graph = defaultdict(list)
+    for u, v in edges:
+        graph[u].append(v)
 
-def update_size(node):
-    """Обновить размер узла на основе поддерева."""
-    if node:
-        left_size = node.left.size if node.left else 0
-        right_size = node.right.size if node.right else 0
-        node.size = 1 + left_size + right_size
+    visited = [0] * (n + 1)
+    order = []
 
+    def dfs(node):
+        visited[node] = 1
+        for neighbor in graph[node]:
+            if not visited[neighbor]:
+                dfs(neighbor)
+        order.append(node)
 
-def insert(root, x):
-    """Вставить значение x в дерево BST и обновить размер."""
-    if root is None:
-        return TreeNode(x)
+    for node in range(1, n + 1):
+        if not visited[node]:
+            dfs(node)
 
-    if x < root.value:
-        root.left = insert(root.left, x)
-    elif x > root.value:
-        root.right = insert(root.right, x)
-    # Если x уже существует, не вставлять снова
-
-    update_size(root)  # Обновить размер после добавления нового узла
-    return root
-
-
-def kth_smallest(root, k):
-    """Найти k-й наименьший элемент в BST."""
-    if not root:
-        return None
-
-    left_size = root.left.size if root.left else 0  # Количество узлов слева
-
-    if k == left_size + 1:
-        return root.value  # Текущий узел — это k-й элемент
-    elif k <= left_size:
-        return kth_smallest(root.left, k)  # Найти слева
-    else:
-        return kth_smallest(root.right, k - left_size - 1)  # Отрегулируйте индекс и найдите нужный
-
-
-def process_queries(queries):
-    root = None
-    results = []
-    for operation, value in queries:
-        if operation == '+':
-            root = insert(root, value)
-        elif operation == '?':
-            results.append(kth_smallest(root, value))
-    return results
-
+    return order[::-1]
 
 def main():
-    queries = read(PATH_INPUT, 4)
-    results = process_queries(queries)
+    n, edges = read(PATH_INPUT, 4)
+    results = topological_sort(n, edges)
     write(PATH_OUTPUT, results, 4)
-
 
 if __name__ == "__main__":
     main()
