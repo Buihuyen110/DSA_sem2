@@ -1,4 +1,3 @@
-import sys
 from Lab2.utils import read, write
 
 PATH_INPUT = '../txtf/input.txt'
