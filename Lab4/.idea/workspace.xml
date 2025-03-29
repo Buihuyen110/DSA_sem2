@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6a16383-b337-41e3-a9b1-a2b396634e03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Lab4_DSA_Буй Тхук Хуен.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/src/kmp_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/tests/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/txtf/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task1/txtf/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/src/z_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/tests/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/txtf/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task6/txtf/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/src/find_max_substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/tests/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/txtf/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/Task7/txtf/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4.2/utils.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2uzmIKA77tMeMLrS9W37Zq5rWux" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lab4.1"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6a16383-b337-41e3-a9b1-a2b396634e03" name="Changes" comment="" />
+      <created>1743259695734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743259695734</updated>
+    </task>
+    <servers />
+  </component>
+</project>
