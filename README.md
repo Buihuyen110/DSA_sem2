@@ -4,6 +4,7 @@
 1. [Лабораторная №1. Жадные алгоритмы. Динамическое программирование №2](https://github.com/Buihuyen110/DSA_sem2/tree/daca0e224444eb31c0d0404097e050214e118fb3/Lab1)
 2. [Лабораторная №2. Двоичные деревья поиска](https://github.com/Buihuyen110/DSA_sem2/tree/9468a106c4a9b635ba7e39ec0cf65cbf49dffcf9/Lab2)
 3. [Лабораторная №3. Графы](https://github.com/Buihuyen110/DSA_sem2/tree/148127d4e6455224f3e53777d3bbd69edd9f4185/Lab3)
+4. [Лабораторная №4. Подстроки](https://github.com/Buihuyen110/DSA_sem2/tree/d5d75a35926ca8e05ae796bb3c0c0e676991d196/Lab4)
 
 + Изучить разные виды алгоритмов
 + Научиться писать тесты к задачам
